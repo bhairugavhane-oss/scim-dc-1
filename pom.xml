@@ -7,7 +7,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.miniorange.usersync</groupId>
     <artifactId>miniorange-usersync-jira</artifactId>
-    <version>3.1.0</version>
+    <version>3.1.2</version>
 
     <organization>
         <name>miniOrange</name>
@@ -162,7 +162,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.3.2</version>
+            <version>3.18.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -207,7 +207,7 @@
        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>6.0.23</version>
+            <version>6.2.11</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
@@ -255,13 +255,6 @@
             <artifactId>atlassian-security-request</artifactId>
             <version>1.0.0</version>
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.10.2</version> <!-- or latest -->
-            <scope>test</scope>
         </dependency>
 
     </dependencies>
